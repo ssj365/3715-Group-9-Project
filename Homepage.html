@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+ <title> Welcome to MUN</title>
+
+ <style>
+
+</style>
+
+<script src="HomepageJS.js"></script>
+
+ <meta name="viewport" content="width=device-width" />
+ <link type="text/css" rel="stylesheet" href="stylesheet.css" media="only screen" />
+ <!-- 
+ <link type="text/css" rel="stylesheet" href="stylesheet.css" media="only screen and (min-width: 1306px)" />
+ <link type="text/css" rel="stylesheet" media="only screen and (max-width: 1305px) and (min-width : 1075px)" href="stylemobi.css" />
+ <link type="text/css" rel="stylesheet" media="only screen and (max-width: 1075px) and (min-width: 500px)" href="stylemobi1.css" />
+ <link type="text/css" rel="stylesheet" media="only screen and (max-width: 500px)" href="stylemobi2.css" />
+ -->
+</head>
+
+
+<body>
+
+<p> 
+<nav id="navbar">
+  <a href="Homepage.html">Main</a> |
+  <a href="CourseC.html">Campus</a> |
+  <a href="student.html">Student</a> |
+  <a href="PreviousCourses.html">Previous Courses</a> 
+</nav> 
+</p>
+
+<div class = "header"> 
+
+<h1> Welcome to Our University </h1>
+ <img id="homeIMG" src="images/HOMEPAGE.jpg" alt="Welcome Image" class="homePage"/> 
+<p id = "contact"><strong>230 Elizabeth Avenue, St. John's, NL <br />(709) 986-5451</strong> </p>
+</div>
+
+<h2>Our Campuses</h2>
+
+<div class = "Campuses"> 
+<ol>
+
+<div class="S">
+<dd id="SJCimg"> <a href="images/SJCampus.jpg" target="_blank"><img src="images/SJCampus.jpg" alt="SJCImage" style="width:128px;height:128px;" /> </a></dd>
+<dt> <a href="SJC.html"><Strong>St. John's</Strong></a> </dt>
+<dd id="Stxt"> The province's capital city, St. John's, is home to the St. John's campus which offers a full range of academic programs in a modern, urban setting. </dd>
+
+<textarea id="ST" rows="6" cols="50">The province's capital city, St. John's, is home to the St. John's campus which offers a full range of academic programs in a modern, urban setting.</textarea>
+<input type="button" id="SButton" value="Edit">
+</div>
+</br>
+<div class="G">
+<dd id = "Grenfellimg"> <a href="images/GRENFELL.jpg" target="_blank"><img src="images/GRENFELL.jpg" alt="GrenfelIImage" style="width:128px; height:128px;" /></a></dd>
+<dt><a href="grenfell.html"><Strong>Grenfell</Strong> </a></dt>
+<dd id="Gtxt">Grenfell Campus, located in Corner Brook on the scenic west coast of the island, is a liberal arts and science campus specializing in environmental and fine arts programs.</dd>
+
+<textarea id="GT" rows="6" cols="50">Grenfell Campus, located in Corner Brook on the scenic west coast of the island, is a liberal arts and science campus specializing in environmental and fine arts programs. </textarea>
+<input type="button" id="GButton" value="Edit">
+</div>
+</br>
+<div class="M">
+<dd id = "MIimg"> <a href="images/MI.jpg" target="_blank"><img src="images/MI.jpg" alt="MIImage" style="width:128px; height:128px;" /> </a> 
+</dd>
+<dt> <Strong>Marine Institute</Strong> </dt>
+<dd id="Mtxt">The Fisheries and Marine Institute is one of the most comprehensive centre for education, training, applied research and industrial support for the ocean industries. Located on the edge of the Atlantic Ocean, we are one of the most respected centres of marine learning and applied research in the world.</dd>
+
+<textarea id="MT" rows="6" cols="50">The Fisheries and Marine Institute is one of the most comprehensive centre for education, training, applied research and industrial support for the ocean industries. Located on the edge of the Atlantic Ocean, we are one of the most respected centres of marine learning and applied research in the world.</textarea>
+<input type="button" id="MButton" value="Edit">
+</div>
+
+</ol>
+
+</div>
+
+<div class = "Events">
+<h3>Events </h3>
+ 
+ <form>
+	<input type="text" id="EventInput" size="30" placeholder="Add New Event">
+	<input type="button" id="EventButton" value="Add"> 
+</form>
+
+<ul>
+<li>Monday 
+	<ul style = "list-style-type:circle">  
+	<li>Fall Semester, Lectures begin</li>
+	<li> Guest Lecture in Bruneau Centre</li>
+	</ul>
+</li>
+<li>Tuesday</li>
+	<ul style="list-style-type: circle">
+	<li> Sea Hawks Basketball Game </li>
+	</ul>
+<li>Thursday</li>
+	<ul style="list-style-type: circle">
+	<li> Meeting of the Senate</li>
+	</ul>
+<li>Friday</li>
+	<ul id="cal" style="list-style-type: circle">
+	</ul>
+ </ul>
+ </br>
+</div>
+</br></br>
+
+<p id="footer"><Strong>This website is protected by copyright law. For general inquiries or specific questions concerning copyright, contact the Copyright Office.</Strong></p>
+
+</body>
+
+
+</html>

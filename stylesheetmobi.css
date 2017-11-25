@@ -1,0 +1,133 @@
+body{
+	 background-color: #A5A5A5;
+	 font-family: Arial;
+ }
+
+ .header{
+	 background-color: #C3C3C3;
+	 border: 2px outset black;
+	 padding: 10px;
+	 text-decoration: underline;
+	 font-family: Arial;
+	 font-size: 200%;
+	 overflow: auto;
+	
+ }
+ h1 {
+	 margin-top: 5px;
+	 font-size: 100%;
+	 text-align: center;
+ }
+ .homePage{
+	 float: left;
+	 width:375px; 
+	 height:150px;
+ }
+ 
+ #contact strong{ 
+     float: right;
+	 font-size: 100%;
+	 font-family: Times New Roman;
+ }
+ 
+ .Events{
+	 background-color: white;
+	 color: black;
+	 padding-bottom:30px;
+	 padding-left: 15px;
+	 padding-right: 30px;
+	 font-size: 120%;
+	 font-family: Arial;
+	 width: 200px;
+	 border: 1px solid black;
+	 margin-left: 10px;
+ }
+ 
+ h3{
+	 text-decoration: underline;
+	 text-align: center;
+ }
+ 
+ 
+ h2{
+	 color: black;
+	 text-align: center;
+	 font-size: 150%;
+	
+ }
+ .Campuses{
+	 padding-right: 10px;
+	 padding-left: 10px;
+	 float: right;
+	 width: 500px;
+	  
+ }
+ 
+ .S {
+	float: right;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 750px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	background-color: silver;
+	border: 2px inset gray;
+ }
+
+ 
+ .G{
+	float: right;
+	background-color: silver;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 750px;
+	padding-bottom: 10px;
+	padding-top: 10px; 
+	margin-bottom: 10px;
+	border: 2px inset gray;
+	 }
+ 
+ .M{
+	float: right;
+	background-color: silver;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 750px;
+	padding-bottom: 10px;
+	padding-top: 10px; 
+	margin-bottom: 10px;
+	border: 2px inset gray;
+ }
+  
+ 
+#SJCimg{
+	 float: right;
+	 margin-left: 150px;
+	  
+ }
+ 
+#MIimg{
+	float: right;
+	margin-left: 150px;
+	 
+}
+ 
+#Grenfellimg{
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+}
+ 
+ 
+ 
+ 
+ #footer{
+	margin-top: 40px;
+	 border: 2px solid gray;
+	 padding: 10px;
+	 background-color: white;
+	 text-align: center;
+	 font-family: Arial;
+	 
+ }
