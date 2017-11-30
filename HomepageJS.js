@@ -1,6 +1,11 @@
 window.onload = init;
 function init() {
-	
+	 
+	checkEdits1();
+	checkEdits2();
+	checkMarine();
+
+
 	var button = document.getElementById("EventButton");
 	
 	var editbutton1 = document.getElementById("SButton");
@@ -22,31 +27,66 @@ function handleButtonClick(e){
 		}
 		else{
 		var li = document.createElement("li");
+
 		li.innerHTML = CalEvent;
 		var ul = document.getElementById("cal");
 		ul.appendChild(li);
+		localStorage.setItem("cal", ul);
 	
 		}
 }
 
+
+
 function SJC(e){
-	var currenttext = document.getElementById("ST");
-	var CurrTXT = currenttext.value;
+	var input = document.getElementById("ST").value;	
+ 	localStorage.setItem("Stxt", input);
 
-	document.getElementById("Stxt").innerHTML = CurrTXT;
-}
-
-function Grenfell(e){
-	var currenttext = document.getElementById("GT");
-	var CurrTXT = currenttext.value;
-
-	document.getElementById("Gtxt").innerHTML = CurrTXT;
+	document.getElementById("Stxt").innerHTML = input;
 	
 }
 
-function Marine(e){
-	var currenttext = document.getElementById("MT");
-	var CurrTXT = currenttext.value;
 
-	document.getElementById("Mtxt").innerHTML = CurrTXT;
+function checkEdits1() {
+
+//find out if the user has previously saved edits
+if(localStorage.userEdits!=null)
+document.getElementById("Stxt").innerHTML = localStorage.getItem("Stxt");
+document.getElementById("ST").innerHTML = localStorage.getItem("ST");
+
 }
+
+function Grenfell(e){
+	var input = document.getElementById("GT").value;	
+ 	localStorage.setItem("Gtxt", input);
+
+	document.getElementById("Gtxt").innerHTML = input;
+	
+}
+function checkEdits2() {
+
+//find out if the user has previously saved edits
+if(localStorage.userEdits!=null)
+document.getElementById("Gtxt").innerHTML = localStorage.getItem("Gtxt");
+document.getElementById("GT").innerHTML = localStorage.getItem("GT");
+
+}
+
+
+function Marine(e){
+	var input = document.getElementById("MT").value;	
+ 	localStorage.setItem("Mxt", input);
+
+	document.getElementById("Mtxt").innerHTML = input;
+	
+}
+
+function checkMarine() {
+
+//find out if the user has previously saved edits
+if(localStorage.userEdits!=null)
+document.getElementById("Mtxt").innerHTML = localStorage.getItem("Mtxt");
+document.getElementById("MT").innerHTML = localStorage.getItem("MT");
+
+}
+
