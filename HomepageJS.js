@@ -50,7 +50,7 @@ function SJC(e){
 function checkEdits1() {
 
 //find out if the user has previously saved edits
-if(localStorage.userEdits!=null)
+if(localStorage.getItem("Stxt")!=null)
 document.getElementById("Stxt").innerHTML = localStorage.getItem("Stxt");
 document.getElementById("ST").innerHTML = localStorage.getItem("ST");
 
@@ -66,7 +66,7 @@ function Grenfell(e){
 function checkEdits2() {
 
 //find out if the user has previously saved edits
-if(localStorage.userEdits!=null)
+if(localStorage.getItem("Gtxt")!=null)
 document.getElementById("Gtxt").innerHTML = localStorage.getItem("Gtxt");
 document.getElementById("GT").innerHTML = localStorage.getItem("GT");
 
@@ -84,7 +84,7 @@ function Marine(e){
 function checkMarine() {
 
 //find out if the user has previously saved edits
-if(localStorage.userEdits!=null)
+(localStorage.getItem("Mtxt")!=null)
 document.getElementById("Mtxt").innerHTML = localStorage.getItem("Mtxt");
 document.getElementById("MT").innerHTML = localStorage.getItem("MT");
 
