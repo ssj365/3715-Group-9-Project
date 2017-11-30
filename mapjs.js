@@ -1,19 +1,6 @@
 var map;
-window.onload = getMyLocation;
-function getMyLocation() {
-	if (navigator.geolocation) {
+window.onload = showMap;
 
-		navigator.geolocation.getCurrentPosition(displayLocation);
-	}
-	else {
-		alert("Oops, no geolocation support");
-	}
-}
-function displayLocation(position) {
-	var latitude = position.coords.latitude;
-	var longitude = position.coords.longitude;
-	showMap(position.coords);
-}
 
 function showMap(coords) {
         var googleLatAndLong = new google.maps.LatLng(coords.latitude, 
@@ -21,7 +8,7 @@ function showMap(coords) {
 		var directionsDisplay = new google.maps.DirectionsRenderer;
         var directionsService = new google.maps.DirectionsService;
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 14,
+          zoom: 10,
           center: googleLatAndLong,
 		  mapTypeId: google.maps.MapTypeId.ROADMAP
         });
@@ -44,7 +31,7 @@ function showMap(coords) {
 	  
 	  function calculateAndDisplayRoute(directionsService, directionsDisplay, position) {
         var selectedMode = document.getElementById('mode').value;
-		var start = position;
+		var start = {lat: 47.569972, lng:  -52.681605};
         var end = document.getElementById('end').value;
         directionsService.route({
           origin: start,
