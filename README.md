@@ -2,7 +2,9 @@
 
 run server.js on excalibur
 URL to website: sc-9.cs.mun.ca/Homepage.html
+
 URL to GitHub: https://github.com/ssj365/3715-Group-9-Project
+
 
 Our application is a university website that can be used by multiple students. Some of the main features include:
 
@@ -15,5 +17,7 @@ Our website can be viewed on many devices, including mobile, and information (i.
 
 Point Distribution:
 Shamiso Jaravaza - 15
+
 F M Mushfiqur Rahman - 15
+
 Bryan Power
