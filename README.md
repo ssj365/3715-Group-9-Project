@@ -2,7 +2,8 @@
 
 # 3715-Group-9-Project
 
-run server.js on excalibur
+run app.js on excalibur
+(app.js is our server js file)
 
 URL to website: sc-9.cs.mun.ca/
 
@@ -10,7 +11,7 @@ URL to GitHub: https://github.com/ssj365/3715-Group-9-Project
 
 URL to alternate for hardcoded JSON files: https://github.com/BryPo13/3715
 
-URL to alternate for global storage test (just in case our web application's global storage does not run correctly): https://github.com/fmmr32/cs3715project
+URL to alternate for global storage test (this is a working prototype for a small form ): https://github.com/fmmr32/cs3715project
 
 Our application is a university website that can be used by multiple students. Some of the main features include:
 
