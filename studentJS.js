@@ -5,7 +5,45 @@ function init() {
 	
 	var enrolledCourses = getEnrolledCourses();
 	fillEnrolled(enrolledCourses);
+	
+	checkLogIn()
 }
+
+
+function checkLogIn(){
+	var sNumber = prompt("Enter student number (use sample 201222437)");
+	var pWord = prompt("Enter Password (use sample 12345)");
+
+	if(sNumber == "201222437" && pWord== "12345"){
+			 
+	}
+	else if(sNumber == "201222417" && pWord== "12345"){
+			 
+	}else if(sNumber == "201222437" && pWord== "12345"){
+			 
+	}else if(sNumber == "201222637" && pWord== "12345"){
+			 
+	}else if(sNumber == "201422437" && pWord== "12345"){
+			 
+	}else if(sNumber == "201122437" && pWord== "12345"){
+			 
+	}else if(sNumber == "201222344" && pWord== "12345"){
+		 
+	}else if(sNumber == "201532437" && pWord== "12345"){
+			 
+	}else if(sNumber == "201310437" && pWord== "12345"){
+			 
+	}
+	else if(sNumber == "2017652437" && pWord== "12345"){
+		
+	}
+	else{
+		alert("invalid login");	
+		window.location.href="student.html";
+	}
+}
+
+
 
 function getEnrolledCourses(){
 	var enrolledCourses = localStorage.getItem("enrolledCourses");
