@@ -5,7 +5,9 @@
 run app.js on excalibur
 (app.js is our server js file)
 
+
 URL to website: sc-9.cs.mun.ca/
+
 
 URL to GitHub: https://github.com/ssj365/3715-Group-9-Project
 
@@ -27,4 +29,4 @@ Shamiso Jaravaza - 10
 
 F M Mushfiqur Rahman - 10
 
-Bryan Power - 10
+Bryan Power - 10c
